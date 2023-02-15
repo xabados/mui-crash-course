@@ -10,6 +10,9 @@ function App() {
       <Container>
         <Grid container spacing={5}>
           <TourCard />
+          <TourCard />
+          <TourCard />
+          <TourCard />
         </Grid>
       </Container>
     </div>

@@ -43,6 +43,17 @@ const TourCard = () => {
               precision={0.5}
               size="small"
             />
+            <Typography variant="body2" component="p" marginLeft={0.5}>
+              4.5
+            </Typography>
+            <Typography variant="body2" component="p" marginLeft={1.5}>
+              (655 reviews)
+            </Typography>
+          </Box>
+          <Box>
+            <Typography variant="h6" component="h3" marginTop={0}>
+              From C $147
+            </Typography>
           </Box>
         </Box>
       </Paper>

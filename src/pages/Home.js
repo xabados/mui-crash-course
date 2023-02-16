@@ -1,15 +1,13 @@
-import "./App.css";
+import "../App.css";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 
 import TourCard from "../components/TourCard";
-import SearchAppBar from "../components/AppBar";
 import cities from "../data.json";
 import { Typography } from "@mui/material";
 
 const Home = () => (
   <div className="App">
-    <SearchAppBar />
     <Container sx={{ marginY: 5 }}>
       {cities.map((city) => (
         <>

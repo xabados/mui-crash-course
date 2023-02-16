@@ -3,6 +3,7 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import { AccessTime } from "@mui/icons-material";
+import Rating from "@mui/material/Rating";
 
 const TourCard = () => {
   return (
@@ -24,9 +25,24 @@ const TourCard = () => {
             }}
           >
             <AccessTime sx={{ width: 12.5 }} />
-            <Typography variant="body2" component="p">
+            <Typography variant="body2" component="p" marginLeft={0.5}>
               5 hours
             </Typography>
+          </Box>
+          <Box
+            sx={{
+              display: "flex",
+              alignItems: "center",
+            }}
+            marginTop={3}
+          >
+            <Rating
+              name="read-only"
+              value={4.5}
+              readOnly
+              precision={0.5}
+              size="small"
+            />
           </Box>
         </Box>
       </Paper>

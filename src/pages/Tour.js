@@ -1,6 +1,7 @@
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
+import ImageCollage from "../components/ImageCollage";
 
 const Tour = () => (
   <Container sx={{ width: 900 }}>
@@ -13,6 +14,7 @@ const Tour = () => (
         alt="vegas"
         height={325}
       />
+      <ImageCollage />
     </Box>
   </Container>
 );

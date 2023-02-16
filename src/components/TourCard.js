@@ -16,6 +16,16 @@ const TourCard = () => {
           <Typography variant="subtitle1" component="h2">
             Immerse into the falls
           </Typography>
+          <Box
+            sx={{
+              display: "flex",
+              alignItems: "center",
+            }}
+          >
+            <Typography variant="body2" component="p">
+              5 hours
+            </Typography>
+          </Box>
         </Box>
       </Paper>
     </Grid>
